@@ -13,7 +13,7 @@ const Certifications = () => {
             {headerText}
         </div>
         <div>
-            <h3 className='text-center text-4xl my-5'>Problem Solution</h3>
+            <h3 className='text-center text-4xl my-5'>Certifications</h3>
             <div className='flex flex-wrap justify-center items-center gap-4 mb-5'>
                 {dataCertifications.map((dataCard, index) => (
                     <BasicCard key={dataCard.id} dataCard={dataCard} />
