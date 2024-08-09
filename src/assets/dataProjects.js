@@ -64,9 +64,19 @@ export const dataProjects = [
     shortDescription: "Basic Prototype API with Nest.js",
     description:
       "The Corner Store API is designed to handle the backend functionality of the Corner Store application. It is built with Nest.js and deployed on Railway. The API is designed to be scalable and efficient, providing a seamless experience for users.",
-    url: "https://servercornerstore-production.up.railway.app/",
+    url: "https://prodigy-wd-05-kappa.vercel.app/",
     imageURL: "/logoBusinessOwner.png",
     codeLink: "https://github.com/ROR2022/servercornerstore",
+  },
+  {
+    id: "prodigyInternship",
+    title: "Prodigy Internship",
+    shortDescription: "Web Development Internship",
+    description:
+      "During my internship at Prodigy, I had the opportunity to work on several key projects that significantly enhanced my web development skills. I developed a weather application integrated with the OpenWeather API, where I not only implemented real-time weather data retrieval but also optimized the user interface for a seamless experience. Additionally, I created a stopwatch and a Tic-Tac-Toe game using React.js, which honed my abilities in state management, component-based architecture, and responsive design. These projects provided me with practical experience in applying best practices in coding, debugging, and version control. Moreover, I gained valuable insights into effective collaboration within a team environment, learning to communicate clearly, manage tasks efficiently, and contribute meaningfully to group objectives. This internship solidified my passion for web development and equipped me with a strong foundation to tackle more complex challenges in the future.",
+    url: "https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/",
+    imageURL: "/logoProdigy.jpeg",
+    codeLink: "https://github.com/ROR2022/PRODIGY_WD_05",
   },
   {
     id: "clientChismografo",
