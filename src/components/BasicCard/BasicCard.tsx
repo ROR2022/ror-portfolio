@@ -1,6 +1,6 @@
 "use client"
 import React, { FC, useEffect, useState } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 //import Link from 'next/link'
 
 interface BasicCardProps {
@@ -36,15 +36,18 @@ const BasicCard: FC<BasicCardProps> = ({ dataCard }) => {
     >
       {imageURL && (
         <Image
-        onClick={() => window.open(completeURL, "_blank")}
-        style={{cursor: "pointer"}}
+          onClick={() => window.open(completeURL, "_blank")}
           src={imageURL}
           alt={title}
           className="w-full"
-          width={400}
-          height={250}
-          objectFit="contain"
-        />
+          width={300}
+          height={0}
+          style={{
+            cursor: "pointer",
+            width: "100%",
+            height: "auto",
+            objectFit: "contain"
+          }} />
       )}
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>

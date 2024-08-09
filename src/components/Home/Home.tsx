@@ -1,4 +1,4 @@
-import Image from "next/legacy/image"
+import Image from "next/image"
 import React from 'react'
 import Link from 'next/link'
 
@@ -9,15 +9,18 @@ const Home = () => {
       I am a passionate Full-Stack Developer with a knack for transforming complex requirements into seamless digital experiences.
       </p>
       <div className='flex flex-col md:flex-row justify-center items-center gap-3 my-5'>
-        <Image 
-        src='/rorProfile1.jpg' 
-        alt='hero' 
-        width={30} 
-        height={30} 
-        style={{width: '30vw', height: 'auto', objectFit: 'contain', borderRadius: '50%'}}
-        sizes='(max-width: 30vw) 100vw, 30vw'
-        
-        />
+        <Image
+          src='/rorProfile1.jpg'
+          alt='hero'
+          width={30}
+          height={30}
+          sizes='(max-width: 30vw) 100vw, 30vw'
+          style={{
+            width: '30vw',
+            height: 'auto',
+            objectFit: 'contain',
+            borderRadius: '50%',
+          }} />
         <div style={{width:'100%'}}>
         <p className='text-sm mt-4 hidden'>Skills</p>
         <ul className=' text-sm me-auto ms-auto text-center' style={{width:'100%'}}>
@@ -46,7 +49,7 @@ const Home = () => {
         </Link>
         </div>
       </div>
-  )
+  );
 }
 
 export default Home
