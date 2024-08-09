@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import RorHome from "@/components/Home/Home";
 
 export default function Home() {
