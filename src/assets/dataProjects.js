@@ -79,6 +79,16 @@ export const dataProjects = [
     codeLink: "https://github.com/ROR2022/PRODIGY_WD_05",
   },
   {
+    id: "endodoncistaBereniceOcampoPwa",
+    title: "Endodoncista - Dra. Berenice Ocampo",
+    shortDescription: "PWA with Next.js, Typescript, Material UI and Vercel",
+    description:
+      "The Progressive Web Application (PWA) is designed to provide users with information about the services offered by Dra. Berenice Ocampo, a dental specialist. It is built with Next.js and deployed on Vercel. The application is designed to be responsive and user-friendly, providing a seamless experience for clients.",
+    url: "https://endodoncista-pwa.vercel.app/",
+    imageURL: "/logoEndoBere.png",
+    codeLink: "https://github.com/ROR2022/endodoncista-pwa",
+  },
+  {
     id: "clientChismografo",
     title: "Chismografo Client",
     shortDescription: "PWA with Next.js and Vercel",
