@@ -83,6 +83,16 @@ export const dataProjects = [
     codeLink: "https://github.com/ROR2022/PRODIGY_WD_05",
   },
   {
+    id: "esteticaPink",
+    title: "Estetica Pink",
+    shortDescription: "Webapp with Next.js, Typescript, Tailwind UI and Vercel",
+    description:
+      "This Web Application is designed to provide users with information about the services offered by Estetica Pink. It is built with Next.js and deployed on Vercel. The application is designed to be responsive and user-friendly, providing a seamless experience for clients.",
+    url: "https://estetica-pink.vercel.app/",
+    imageURL: "/logoEstetica1.jpg",
+    codeLink: "https://github.com/ROR2022/estetica-pink",
+  },
+  {
     id:'pediatra-cuernavaca',
     title: "Pediatra - Cuernavaca",
     shortDescription: "Webapp with Next.js, Typescript, Material UI and Vercel",
