@@ -83,6 +83,31 @@ export const dataProjects = [
     codeLink: "https://github.com/ROR2022/PRODIGY_WD_05",
   },
   {
+    id:"greyballChallenge",
+    title: "Greyball Challenge",
+    shortDescription: "Greyball Challenge Solution",
+    description: `This project is an e-commerce application developed with Next.js and Tailwind CSS, designed to efficiently display a list of products while providing a modern user experience. The application includes several key features:
+
+Product Listings with Server-Side Rendering (SSR): It uses getServerSideProps to fetch data from an API, enabling quick product display to users, with a focus on optimized SEO.
+
+Responsive User Interface: The interface, built with Tailwind CSS, is fully responsive, offering a seamless experience across both mobile devices and desktops.
+
+Cart and Checkout: The application includes a shopping cart feature where users can add products, view the total items and price, all managed using Redux for centralized state management.
+
+Pagination and Infinite Scroll: It implements pagination for navigating through products, along with the option to load more products as the user scrolls down the page using IntersectionObserver.
+
+Product Filtering and Sorting: Users can search for products by title and sort the list based on criteria such as price or rating, with real-time updates to the results.
+
+Automated Testing: The project includes tests written with Jest and React Testing Library to ensure the stability and functionality of key components, such as the shopping cart.
+
+Redux for State Management: Redux is used for managing the application's state, ensuring that data like cart contents and user preferences are handled consistently and efficiently.
+
+This project serves as a comprehensive example of building a modern e-commerce application using current technologies, with a focus on efficiency, scalability, and user experience.`,
+    url:'https://greyball-challenge.vercel.app/',
+    imageURL: "/logoGreyball.png",
+    codeLink: "https://github.com/ROR2022/greyballChallenge"
+  },
+  {
     id: "esteticaPink",
     title: "Estetica Pink",
     shortDescription: "Webapp with Next.js, Typescript, Tailwind UI and Vercel",
