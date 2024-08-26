@@ -11,8 +11,7 @@ export const dataProblemSolution = [
     shortDescription: "HackerRank Project Euler Solutions in JavaScript",
     description: `This repository contains the solutions to the Project Euler challenges I have completed on HackerRank. The solutions are written in JavaScript and are designed to be efficient and easy to understand. The challenges cover a wide range of topics, including algorithms, data structures, and problem-solving.`,
     url: "https://github.com/ROR2022/hackerRank-ProjectEuler",
-    imageURL:
-      "/hackerRankLogo.png",
+    imageURL: "/hackerRankLogo.png",
     codeLink: "https://github.com/ROR2022/hackerRank-ProjectEuler",
   },
   {
@@ -24,8 +23,7 @@ export const dataProblemSolution = [
                         The set of x values are distinct, the set of y values are distinct, and the set of z values are distinct.
                         The cardinality k is the length of the combination of triples that meets these conditions.`,
     url: "https://docs.google.com/document/d/1spjKUK2LGp1j6SwscvVF-Rdu8jR3CxWVX7SOWx57eD8/edit?usp=sharing",
-    imageURL:
-      "/rorCodePNG_1000x800.png",
+    imageURL: "/rorCodePNG_1000x800.png",
     codeLink: "https://codepen.io/Ramiro-Ocampo-Rodriguez/pen/poXzqLP",
   },
   {
@@ -34,8 +32,7 @@ export const dataProblemSolution = [
     shortDescription: "HackerRank Challenges Solutions in JavaScript",
     description: `This repository contains the solutions to the challenges I have completed on HackerRank. The solutions are written in JavaScript and are designed to be efficient and easy to understand. The challenges cover a wide range of topics, including algorithms, data structures, and problem-solving.`,
     url: "https://github.com/ROR2022/hackerRankChallenges",
-    imageURL:
-      "/rorCodePNG_1000x800.png",
+    imageURL: "/rorCodePNG_1000x800.png",
     codeLink: "https://github.com/ROR2022/hackerRankChallenges",
   },
 ];
@@ -48,8 +45,7 @@ export const dataProjects = [
     description:
       "The web application is responsible for managing the registration of new users on the Miniso Mexico platform. Its main functionality lies in receiving user data inputted via a form and registering it both in the VTEX e-commerce platform and the internal Aptos CRM, as well as storing it in MongoDB. This system is deployed on a CentOS server on-premises.",
     url: "https://minisolove.miniso.com.mx/",
-    imageURL:
-      "/logoMinisoIco.webp",
+    imageURL: "/logoMinisoIco.webp",
     codeLink: "",
   },
   {
@@ -83,7 +79,40 @@ export const dataProjects = [
     codeLink: "https://github.com/ROR2022/PRODIGY_WD_05",
   },
   {
-    id:"greyballChallenge",
+    id: "rorApi",
+    title: "ROR NEST-API",
+    shortDescription: "API with Nest.js and Railway",
+    description: ` 
+    API Documentation - ROR
+Overview
+This API is developed using NestJS, a progressive Node.js framework that allows the creation of scalable and efficient applications. The API follows SOLID principles to ensure maintainable and extensible code. It is designed to serve as the backend for several frontend applications developed with Next.js, including Estetica Pink, Endodoncista-Cuernavaca, and Pediatra-Cuernavaca.
+Main Modules
+1. AppModule
+The AppModule is the root module of the application, responsible for orchestrating and interconnecting the other modules. It is the foundation on which the application is built, allowing the integration of all services and functionalities provided by the API.
+2. AuthModule
+The AuthModule manages everything related to authentication and authorization of users. It implements a system based on JWT (JSON Web Tokens) to handle user sessions, ensuring secure access to the API's various routes and resources. User passwords are securely stored in the database using bcrypt for hashing, ensuring their confidentiality.
+3. UsersModule
+The UsersModule is responsible for managing the User entity, providing services for the creation, updating, retrieval, and deletion of users. This module is designed to efficiently handle the CRUD (Create, Read, Update, Delete) operations associated with the application's users, ensuring data integrity and consistency.
+4. VerificationModule
+The VerificationModule handles user verification, focusing particularly on email confirmation. It uses the Nodemailer tool to send verification emails to users, ensuring that only verified users can access certain functionalities of the application.
+5. ReviewsModule
+The ReviewsModule groups the necessary services for managing user reviews. This module allows users to create, update, retrieve, and delete reviews, providing a simple and efficient interface for handling feedback and ratings in the various applications that use this API.
+Integration with Frontend Applications
+The API is designed to integrate efficiently with frontend applications developed in Next.js. Some of the applications currently using this API include:
+Estetica Pink: An application oriented towards the beauty and aesthetics sector.
+Endodoncista-Cuernavaca: A platform focused on managing appointments and reviews for an endodontics clinic.
+Pediatra-Cuernavaca: An application aimed at managing patients and reviews in a pediatric clinic.
+Technical Considerations
+Database: The API uses MongoDB as the primary database system, leveraging its flexibility and scalability to handle unstructured data.
+Security: Best security practices are implemented, such as encrypted password storage and user validation through email.
+Architecture: The API follows a modular approach, making it easy to maintain and scale, allowing functionalities to be added or modified without affecting the overall system.
+    `,
+    url: "https://ror-api-production.up.railway.app/",
+    imageURL: "/logoRorApi.jpg",
+    codeLink: "https://github.com/ROR2022/ror-api",
+  },
+  {
+    id: "greyballChallenge",
     title: "Greyball Challenge",
     shortDescription: "Greyball Challenge Solution",
     description: `This project is an e-commerce application developed with Next.js and Tailwind CSS, designed to efficiently display a list of products while providing a modern user experience. The application includes several key features:
@@ -103,9 +132,9 @@ Automated Testing: The project includes tests written with Jest and React Testin
 Redux for State Management: Redux is used for managing the application's state, ensuring that data like cart contents and user preferences are handled consistently and efficiently.
 
 This project serves as a comprehensive example of building a modern e-commerce application using current technologies, with a focus on efficiency, scalability, and user experience.`,
-    url:'https://greyball-challenge.vercel.app/',
+    url: "https://greyball-challenge.vercel.app/",
     imageURL: "/logoGreyball.png",
-    codeLink: "https://github.com/ROR2022/greyballChallenge"
+    codeLink: "https://github.com/ROR2022/greyballChallenge",
   },
   {
     id: "esteticaPink",
@@ -118,13 +147,14 @@ This project serves as a comprehensive example of building a modern e-commerce a
     codeLink: "https://github.com/ROR2022/estetica-pink",
   },
   {
-    id:'pediatra-cuernavaca',
+    id: "pediatra-cuernavaca",
     title: "Pediatra - Cuernavaca",
     shortDescription: "Webapp with Next.js, Typescript, Material UI and Vercel",
-    description: 'This Web Application is designed to provide users with information about the services offered by Dra. Marha Iris Ocampo, pediatrician. It is built with Next.js and deployed on Vercel. The application is designed to be responsive and user-friendly, providing a seamless experience for clients.',
-    url:"https://pediatra-cuernavaca.vercel.app/",
-    imageURL:'/logoPediatra1.jpg',
-    codeLink:'https://github.com/ROR2022/pediatra-cuernavaca'
+    description:
+      "This Web Application is designed to provide users with information about the services offered by Dra. Marha Iris Ocampo, pediatrician. It is built with Next.js and deployed on Vercel. The application is designed to be responsive and user-friendly, providing a seamless experience for clients.",
+    url: "https://pediatra-cuernavaca.vercel.app/",
+    imageURL: "/logoPediatra1.jpg",
+    codeLink: "https://github.com/ROR2022/pediatra-cuernavaca",
   },
   {
     id: "endodoncistaBereniceOcampoPwa",
@@ -163,8 +193,7 @@ This project serves as a comprehensive example of building a modern e-commerce a
     description:
       "This web application is designed to help users find job opportunities based on their preferences. It is built with React.js, and is deployed on AWS EC2 using S3 bucket for Images. The application is designed to be responsive and user-friendly, providing a seamless experience for job seekers. ",
     url: "http://18.222.55.217",
-    imageURL:
-      "/logoJOB.png",
+    imageURL: "/logoJOB.png",
     codeLink: "https://github.com/ROR2022/jobinder",
   },
   {
@@ -174,8 +203,7 @@ This project serves as a comprehensive example of building a modern e-commerce a
     description:
       "This web application, developed with the MERN stack (MongoDB, Express.js, React.js, Node.js), aims to showcase the basic functionality of a login system. In addition to allowing users to authenticate themselves, it also provides an intuitive and responsive interface to explore other potential features. Currently, it is deployed on an AWS EC2 instance, ensuring its availability and scalability.",
     url: "http://18.116.42.126/",
-    imageURL:
-      "/sunset-1226414_1280.jpg",
+    imageURL: "/sunset-1226414_1280.jpg",
     codeLink: "https://github.com/ROR2022/loginApp",
   },
   {
@@ -185,8 +213,7 @@ This project serves as a comprehensive example of building a modern e-commerce a
     description:
       "This application is hosted on Vercel, with its primary function being to showcase information about a pediatrician and the services they offer. Developed using React.js and deployed on Vercel, the application is responsive and user-friendly, ensuring a seamless experience for clients.",
     url: "https://cardiofront.vercel.app/",
-    imageURL:
-      "/logoCardio1.png",
+    imageURL: "/logoCardio1.png",
     codeLink: "https://github.com/ROR2022/cardiofront",
   },
   {
@@ -206,8 +233,7 @@ This project serves as a comprehensive example of building a modern e-commerce a
     description:
       "This website is designed to showcase the services and information of Dental Las Palmas, a local dental clinic. It is built with React.js, and is deployed on Vercel. The website is designed to be responsive and user-friendly, providing a seamless experience for clients.",
     url: "https://ror2022.github.io/dental-las-palmas2/",
-    imageURL:
-      "/logoDental1.png",
+    imageURL: "/logoDental1.png",
     codeLink: "https://github.com/ROR2022/dental-las-palmas2",
   },
   {
@@ -227,8 +253,7 @@ This project serves as a comprehensive example of building a modern e-commerce a
     description:
       "This web application is designed to test your knowledge with a trivia game. It is built with React.js, and is deployed on GitHub Pages. The game is designed to be responsive and user-friendly, providing a seamless experience for players.",
     url: "https://ror2022.github.io/trivia-game/",
-    imageURL:
-      "/logoTrivia.webp",
+    imageURL: "/logoTrivia.webp",
     codeLink: "https://github.com/ROR2022/trivia-game",
   },
   {
@@ -252,10 +277,9 @@ export const dataCertifications = [
       "HackerRank Frontend Developer Certificate of Accomplishment",
     description:
       "This certification validates the knowledge and skills required to effectively develop web applications using React.js.",
-      url:'',
-    imageURL:
-      "/rorHackerRank1.png",
-      codeLink:''
+    url: "",
+    imageURL: "/rorHackerRank1.png",
+    codeLink: "",
   },
   {
     id: "rorProdigy",
@@ -263,10 +287,9 @@ export const dataCertifications = [
     shortDescription: "Web Development",
     description:
       "This certification validates the knowledge and skills required to effectively develop web applications using HTML, CSS, and JavaScript. ",
-    imageURL:
-      "/rorProdigy.jpeg",
-      codeLink:'',
-      url:'',
+    imageURL: "/rorProdigy.jpeg",
+    codeLink: "",
+    url: "",
   },
   {
     id: "rorAWS",
@@ -274,10 +297,9 @@ export const dataCertifications = [
     shortDescription: "AWS Cloud Practitioner Essentials",
     description:
       "This certification validates the knowledge and skills required to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS Certifications. ",
-    imageURL:
-      "/rorAWS.jpg",
-      codeLink:'',
-      url:'',
+    imageURL: "/rorAWS.jpg",
+    codeLink: "",
+    url: "",
   },
   {
     id: "rorEnglish",
@@ -285,10 +307,9 @@ export const dataCertifications = [
     shortDescription: "English as a second language",
     description:
       "This certification validates the knowledge and skills required to effectively communicate in English, both in written and spoken form. ",
-    imageURL:
-      "/rorEnglish.png",
-      codeLink:'',
-      url:'',
+    imageURL: "/rorEnglish.png",
+    codeLink: "",
+    url: "",
   },
   {
     id: "rorFullStack",
@@ -296,10 +317,9 @@ export const dataCertifications = [
     shortDescription: "Full Stack JavaScript Developer",
     description:
       "This certification validates the knowledge and skills required to effectively develop web applications using JavaScript, both on the client and server side. ",
-    imageURL:
-      "/rorFullStackJS.png",
-      codeLink:'',
-      url:'',
+    imageURL: "/rorFullStackJS.png",
+    codeLink: "",
+    url: "",
   },
   {
     id: "rorScrum",
@@ -307,9 +327,8 @@ export const dataCertifications = [
     shortDescription: "Scrum Fundamentals Certified",
     description:
       "This certification validates the knowledge and skills required to effectively apply Scrum principles and practices in a team environment.",
-    imageURL:
-      "/rorScrum.jpg",
-      codeLink:'',
-      url:'',
+    imageURL: "/rorScrum.jpg",
+    codeLink: "",
+    url: "",
   },
 ];
