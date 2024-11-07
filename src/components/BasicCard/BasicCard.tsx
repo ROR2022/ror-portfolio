@@ -11,11 +11,12 @@ interface BasicCardProps {
     url: string;
     imageURL: string;
     codeLink: string;
+    backLink?: string;
   };
 }
 
 const BasicCard: FC<BasicCardProps> = ({ dataCard }) => {
-  const { title, shortDescription, description, url, imageURL, codeLink } = dataCard;
+  const { title, shortDescription, description, url, imageURL, codeLink, backLink } = dataCard;
   const [completeURL, setCompleteURL] = useState("");
   useEffect(() => {
     setCompleteURL(`${window.location.origin}${imageURL}`);
@@ -70,6 +71,16 @@ const BasicCard: FC<BasicCardProps> = ({ dataCard }) => {
             className="text-indigo-500 hover:text-indigo-700 font-semibold"
           >
             Code Link
+          </a>
+        </div>
+      )}
+      {backLink && (
+        <div className="px-6 pt-4 pb-2">
+          <a
+            href={backLink}
+            className="text-indigo-500 hover:text-indigo-700 font-semibold"
+          >
+            Backend Link Code
           </a>
         </div>
       )}
