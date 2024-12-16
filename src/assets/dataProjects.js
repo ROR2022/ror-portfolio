@@ -52,9 +52,9 @@ export const dataProjects = [
   {
     id: "java-angular-crud-frontend",
     title: "Employee CRUD Management", //Angular-Spring-Boot-CRUD-Full-Stack-App (FRONT-END)
-    shortDescription: "Angular 17 with Bootstap Frontend for Employee CRUD Management",
+    shortDescription: "Java with Spring-Boot and MySQL, Angular 17 with Bootstap Full Stack app for Employee CRUD Management",
     description: 
-    `This project is the frontend part of a full-stack CRUD application for managing employee data. 
+    `This project is a full-stack CRUD application for managing employee data. 
     The frontend is built using Angular 17 and Bootstrap, 
     providing a user-friendly interface for creating, reading, updating, and deleting employee records. 
     The application communicates with a Spring Boot backend API to perform CRUD operations on the employee data stored 
