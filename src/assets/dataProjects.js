@@ -1,6 +1,6 @@
 //import { url } from "inspector";
 
-import { url } from "inspector";
+
 
 //pediatrician
 //https://playful-moose-d164o3-dev-ed.trailblaze.my.salesforce.com
@@ -48,6 +48,22 @@ export const dataProjects = [
     url: "https://minisolove.miniso.com.mx/",
     imageURL: "/logoMinisoIco.webp",
     codeLink: "",
+  },
+  {
+    id: "java-angular-crud-frontend",
+    title: "Employee CRUD Management", //Angular-Spring-Boot-CRUD-Full-Stack-App (FRONT-END)
+    shortDescription: "Angular 17 with Bootstap Frontend for Employee CRUD Management",
+    description: 
+    `This project is the frontend part of a full-stack CRUD application for managing employee data. 
+    The frontend is built using Angular 17 and Bootstrap, 
+    providing a user-friendly interface for creating, reading, updating, and deleting employee records. 
+    The application communicates with a Spring Boot backend API to perform CRUD operations on the employee data stored 
+    in a MySQL database. The project showcases proficiency in frontend development, 
+    RESTful API integration, and full-stack application architecture.`,
+    url: "",
+    imageURL: "/javaAngularSpringBootMySQLBootstrapCrud.png",
+    codeLink: "https://github.com/ROR2022/java-angular-crud",
+    backLink: "https://github.com/ROR2022/java-angular-crud-backend",
   },
   {
     id: "iTransitionTaskFinal",
