@@ -34,6 +34,8 @@ const Home = () => {
           <li>HTML/CSS</li>
           <li>JavaScript</li>
           <li>Typescript</li>
+          <li>Java</li>
+          <li>Spring Boot</li>
         </ul>
         <p className='text-sm mt-5'>
         My passion for web development and commitment to continuous improvement have led me to specialize in these key areas of modern development.
