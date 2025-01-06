@@ -1,7 +1,5 @@
 //import { url } from "inspector";
 
-
-
 //pediatrician
 //https://playful-moose-d164o3-dev-ed.trailblaze.my.salesforce.com
 
@@ -50,11 +48,22 @@ export const dataProjects = [
     codeLink: "",
   },
   {
+    id: "portfolioTrackerApp",
+    title: "Portfolio Tracker App",
+    shortDescription: "Full-Stack ( Next.js - Nest.js ) Stock Portfolio Tracker",
+    description: `The Portfolio Tracker application is designed to help users efficiently manage their stock holdings. It provides features to add, view, edit, and delete stock entries, track portfolio value in real-time, and display key metrics on a dashboard.
+                  Additionally, it includes user authentication (login, register, logout) and supports profile image uploads, stored securely in an AWS S3 bucket.`,
+    url: "https://capx-front.vercel.app/",
+    imageURL: "/capxLogo.png",
+    codeLink: "https://github.com/ROR2022/capx-front",
+    backLink: "https://github.com/ROR2022/capx-api",
+  },
+  {
     id: "java-angular-crud-frontend",
     title: "Employee CRUD Management", //Angular-Spring-Boot-CRUD-Full-Stack-App (FRONT-END)
-    shortDescription: "Java with Spring-Boot and MySQL, Angular 17 with Bootstap Full Stack app for Employee CRUD Management",
-    description: 
-    `This project is a full-stack CRUD application for managing employee data. 
+    shortDescription:
+      "Java with Spring-Boot and MySQL, Angular 17 with Bootstap Full Stack app for Employee CRUD Management",
+    description: `This project is a full-stack CRUD application for managing employee data. 
     The frontend is built using Angular 17 and Bootstrap, 
     providing a user-friendly interface for creating, reading, updating, and deleting employee records. 
     The application communicates with a Spring Boot backend API to perform CRUD operations on the employee data stored 
@@ -68,7 +77,8 @@ export const dataProjects = [
   {
     id: "iTransitionTaskFinal",
     title: "FormCraft",
-    shortDescription: "Craft custom forms with ease. Tailor your data collection to your exact needs.",
+    shortDescription:
+      "Craft custom forms with ease. Tailor your data collection to your exact needs.",
     description: `Developed a comprehensive web application for customizable forms using Next.js, Nest.js, Next UI, MongoDB, and MongoDB Atlas. This application, inspired by Google Forms, empowers users to create and manage diverse forms, including quizzes, surveys, and polls. Key features include:
 
 Robust Backend: Leveraged Nest.js to build a scalable and maintainable backend API, handling user authentication, data storage, and business logic.
@@ -79,12 +89,13 @@ This project showcases proficiency in full-stack development, database design, a
     url: "https://rorforms-client.vercel.app/",
     imageURL: "/formIcon.png",
     codeLink: "https://github.com/ROR2022/rorforms-client",
-    backLink: "https://github.com/ROR2022/rorforms-server"
+    backLink: "https://github.com/ROR2022/rorforms-server",
   },
   {
     id: "iTransitionTask7",
     title: "Chat Application with Video Calls & File Sharing",
-    shortDescription: "Full-Stack Chat Application with Address Book, Text Chat, WebRTC Video Calls, and File Sharing Built with Next.js, Nest.js, Material UI, and MongoDB",
+    shortDescription:
+      "Full-Stack Chat Application with Address Book, Text Chat, WebRTC Video Calls, and File Sharing Built with Next.js, Nest.js, Material UI, and MongoDB",
     description: `Comprehensive chat application using a modern tech stack that includes Next.js, Nest.js, Material UI, MongoDB, and Mongo Atlas. The project was seamlessly deployed on Vercel for the frontend and Railway for the backend. The application includes the following key features:
 Address Book: Allows users to search and mark contacts as favorites for quick access.
 Text Chat: Supports rich text formatting and maintains chat history for a better user experience.
@@ -94,12 +105,12 @@ The project focuses on creating a user-friendly, visually appealing, and functio
     url: "https://itransition-client-task4-ror.vercel.app/chat",
     imageURL: "/iTransition7.png",
     codeLink: "ttps://github.com/ROR2022/itransition_clientTask4-ror",
-    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror"
+    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror",
   },
   {
     id: "iTransitionTask6",
     title: "Collaborative Presentation Software",
-    shortDescription:`Real-Time Collaborative Presentation Software with Dynamic Slide Management, User Roles, and Advanced Drawing Tools Built with Next.js, Nest.js, and MongoDB`,
+    shortDescription: `Real-Time Collaborative Presentation Software with Dynamic Slide Management, User Roles, and Advanced Drawing Tools Built with Next.js, Nest.js, and MongoDB`,
     description: `This project involved the development of a collaborative presentation software designed for real-time teamwork, allowing multiple users to create, edit, and view presentations simultaneously. Built using Next.js, Nest.js, Material UI, MongoDB, and Mongo Atlas, the application is fully functional and deployed on Vercel and Railway.
 
 Key Features:
@@ -119,12 +130,13 @@ This project demonstrates the ability to build a scalable, real-time, collaborat
     url: "https://itransition-client-task4-ror.vercel.app/presentation",
     imageURL: "/iTransition6.webp",
     codeLink: "https://github.com/ROR2022/itransition_clientTask4-ror",
-    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror"
+    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror",
   },
   {
     id: "iTransitionTask5",
     title: "Random User Data Generator",
-    shortDescription: "Full-Stack Application for Generating Realistic, Region-Specific User Data with Configurable Error Rates and Infinite Scrolling",
+    shortDescription:
+      "Full-Stack Application for Generating Realistic, Region-Specific User Data with Configurable Error Rates and Infinite Scrolling",
     description: `This web application project leverages Next.js, Nest.js, Material UI, MongoDB, and MongoDB Atlas, with deployments on Vercel and Railway, to deliver a powerful tool for generating realistic, region-specific user data with customizable error rates. This tool is particularly valuable for testing data-handling capabilities in real-world scenarios.
     The application enables users to:
     Select a specific region (e.g., USA, Poland) for generating localized data, complete with names, addresses, and phone numbers formatted to match each region.
@@ -133,14 +145,15 @@ This project demonstrates the ability to build a scalable, real-time, collaborat
     The user interface updates in real-time to reflect any changes in configuration. Additionally, an export-to-CSV feature allows users to download the displayed data set, including all applied errors, in a format suitable for analysis.
     This project demonstrates advanced full-stack development skills in TypeScript and JavaScript, cloud-based deployment, efficient data manipulation, and dynamic user interface design. The application is a showcase of scalable data generation, error handling, and real-time updating within a robust, intuitive interface.`,
     imageURL: "/iTransition5.png",
-    url:"https://itransition-client-task4-ror.vercel.app/faker",
+    url: "https://itransition-client-task4-ror.vercel.app/faker",
     codeLink: "https://github.com/ROR2022/itransition_clientTask4-ror",
-    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror"
+    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror",
   },
   {
     id: "iTransitionTask4",
     title: "Full-Stack User Authentication System",
-    shortDescription: "Secure User Administration Dashboard with Authentication and Role Management",
+    shortDescription:
+      "Secure User Administration Dashboard with Authentication and Role Management",
     description: `Full-stack web development project using Next.js for the frontend and Nest.js for the backend, deployed on Vercel and Railway. The frontend interface was built with Material UI, providing a seamless and user-friendly experience. MongoDB was used as the database, ensuring scalable and flexible data management.
     The application includes a comprehensive user registration and authentication system, granting controlled access to an administrative dashboard. Only authenticated users can access user management features. The admin panel displays a user table with options for bulk actions—block, unblock, and delete users—using a toolbar with quick-action controls.
     Each user account has a designated status (active/blocked), ensuring that blocked users are unable to log in until reactivated. Implementation of a unique index in MongoDB for efficient data management and to maintain data integrity.
@@ -148,7 +161,7 @@ This project demonstrates the ability to build a scalable, real-time, collaborat
     url: "https://itransition-client-task4-ror.vercel.app/",
     imageURL: "/itransition_logo.jpeg",
     codeLink: "https://github.com/ROR2022/itransition_clientTask4-ror",
-    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror"
+    backLink: "https://github.com/ROR2022/itransition_serverTask4-ror",
   },
   {
     id: "clientCornerStore",
