@@ -54,7 +54,7 @@ export const dataProjects = [
     description: `The Portfolio Tracker application is designed to help users efficiently manage their stock holdings. It provides features to add, view, edit, and delete stock entries, track portfolio value in real-time, and display key metrics on a dashboard.
                   Additionally, it includes user authentication (login, register, logout) and supports profile image uploads, stored securely in an AWS S3 bucket.`,
     url: "https://capx-front.vercel.app/",
-    imageURL: "/capxLogo.png",
+    imageURL: "/capxLogo.jpg",
     codeLink: "https://github.com/ROR2022/capx-front",
     backLink: "https://github.com/ROR2022/capx-api",
   },
