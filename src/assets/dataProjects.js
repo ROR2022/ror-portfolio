@@ -48,6 +48,17 @@ export const dataProjects = [
     codeLink: "",
   },
   {
+    id: "liveCoachingApp",
+    title: "Live Coaching App",
+    shortDescription: "Webapp with Next.js, Tailwind CSS, and Vercel",
+    description:
+      "This web application is designed to provide users with a platform to ask practical questions about wisdom and guidance for life. It is built with Next.js, Tailwind CSS, and is deployed on Vercel. The application is designed to be responsive and user-friendly, providing a seamless experience for clients.",
+    url: "https://livecoachingtips.vercel.app/",
+    imageURL: "/logoInnovare.png",
+    codeLink: "https://github.com/ROR2022/sportips",
+    backLink: "",
+  },
+  {
     id: "portfolioTrackerApp",
     title: "Portfolio Tracker App",
     shortDescription: "Full-Stack ( Next.js - Nest.js, Finnhub API ) Stock Portfolio Tracker",
