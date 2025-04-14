@@ -48,6 +48,20 @@ export const dataProjects = [
     codeLink: "",
   },
   {
+    id: "sysdiagramai",
+    title: "Sysdiagram AI",
+    shortDescription: "AI-Powered Diagram Generator",
+    description: `SysDiagramAI es una aplicación web diseñada para desarrolladores que necesitan crear diseños de sistemas de software de manera eficiente. Los usuarios ingresan requerimientos de software a través de un formulario o texto libre, y la aplicación utiliza la API de OpenAI para generar automáticamente:
+      Diagramas de diseño de sistemas (arquitectura, base de datos, APIs)
+      Explicaciones detalladas de cada componente
+      Recomendaciones de herramientas/tecnologías con justificaciones
+      La interfaz es simple y enfocada en usabilidad: un formulario de entrada, un panel de resultados con diagramas descargables (en texto o imagen) y explicaciones.`,
+    url: "https://sysdiagramai.vercel.app/",
+    imageURL: "/sysDiagramLogo.png",
+    codeLink: "https://github.com/ROR2022/sysdiagramai",
+    backLink: "",
+  },
+  {
     id: "liveCoachingApp",
     title: "Live Coaching App",
     shortDescription: "Webapp with Next.js, Tailwind CSS, and Vercel",
