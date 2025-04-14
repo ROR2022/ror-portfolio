@@ -50,6 +50,15 @@ export const dataProjects = [
     codeLink: "",
   },
   {
+    id: "carmarket",
+    title: "CarMarket",
+    shortDescription: "Una plataforma moderna para la compra y venta de vehículos",
+    description: `CarMarket es una plataforma web moderna y robusta diseñada para facilitar la compra y venta de vehículos. Construida con tecnologías de última generación, ofrece una experiencia fluida y segura tanto para compradores como vendedores.`,
+    url: "https://carmarket-rouge.vercel.app/",
+    imageURL: "/carMarketLogo.png",
+    codeLink: "https://github.com/ROR2022/carmarket2",
+  },
+  {
     id: "nextplate",
     title: "NextPlate",
     shortDescription: "Advanced Next.js Boilerplate for Modern Web Applications",
