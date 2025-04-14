@@ -1,5 +1,7 @@
 //import { url } from "inspector";
 
+import { url } from "inspector";
+
 //pediatrician
 //https://playful-moose-d164o3-dev-ed.trailblaze.my.salesforce.com
 
@@ -46,6 +48,15 @@ export const dataProjects = [
     url: "https://minisolove.miniso.com.mx/",
     imageURL: "/logoMinisoIco.webp",
     codeLink: "",
+  },
+  {
+    id: "nextplate",
+    title: "NextPlate",
+    shortDescription: "Advanced Next.js Boilerplate for Modern Web Applications",
+    description: `NextPlate is an advanced Next.js boilerplate designed for full-stack developers who want to rapidly build scalable, modern web applications compliant with legal standards. It combines the best tools from the Next.js ecosystem with a focus on regulatory compliance, offering a complete solution that significantly reduces setup time and allows developers to focus on their specific business logic.`,
+    url: "https://www.nextplate.lat/",
+    imageURL: "/logoNextPlate.png",
+    codeLink: "https://github.com/ROR2022/nextplate",
   },
   {
     id: "sysdiagramai",
